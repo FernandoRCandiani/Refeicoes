@@ -43,7 +43,7 @@ class Meal {
     required this.cost,
   });
 
-  String get complaxityText {
+  String get complexityText {
     switch(complexity) {
       case Complexity.simple:
         return 'Simples';
